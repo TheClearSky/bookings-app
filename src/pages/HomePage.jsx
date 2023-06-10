@@ -4,10 +4,10 @@ import TopBar from '../components/TopBar';
 import BookingsViewer from '../components/BookingsViewer';
 
 export default function HomePage() {
-  return (
-    <div className="homepage">
-        <TopBar/>
-        <BookingsViewer/>
-    </div>
-  )
+    return (
+        <div className="homepage">
+            <TopBar />
+            <BookingsViewer />
+        </div>
+    )
 }
