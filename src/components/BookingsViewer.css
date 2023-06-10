@@ -1,0 +1,52 @@
+.bookingsviewer{
+    padding-inline: 44px;
+    padding-block: 36px;
+}
+.bookingsviewertitle{
+    display: flex;
+}
+.viewertitletext{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+
+    color: rgba(0, 0, 0, 0.85);
+    margin-right: 16px;
+}
+.viewerimage{
+    width: 40px;
+    height: 40px;
+}
+
+.bookingsviewer .futurefeaturebox{
+    margin-left: auto;
+    width: 35px;
+    height: 34px;
+
+    background: #D9D9D9;
+}
+.bookingsviewer .tabs{
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    gap:50px;
+}
+.tab{
+    padding: 16px;
+}
+.tab.selected{
+    color: #FF5757;
+}
+.tab.selected::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: calc( 100% + 40px );
+    border-radius: 10px;
+    transform: translateX(-20px);
+    background-image: linear-gradient(180deg, #FC8F8F 0%, #FF5757 100%);
+    
+    margin-top: 5px;
+}

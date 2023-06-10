@@ -1,0 +1,23 @@
+.branch{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 10px;
+
+    color: rgba(0, 0, 0, 0.35);
+    display: flex;
+    padding-left: 22px;
+    padding-block: 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+.selectioncircle{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 1px solid #FF5757;
+}
+.selectioncircle.selected{
+    width: 13px;
+    height: 13px;
+    background: linear-gradient(180deg, #FC8F8F 0%, #FF5757 100%);
+}

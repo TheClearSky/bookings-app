@@ -1,0 +1,60 @@
+.topbar{
+    display: flex;
+    align-items: center;
+    padding-inline: 30px;
+    padding-block: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    gap:20px;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    padding: 5px;
+}
+.searchbarinput{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+
+    color: rgba(0, 0, 0, 0.54);
+    padding-inline: 10px;
+    border: none;
+    outline: none;
+    width: 300px;
+}
+.searchbarinput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(0, 0, 0, 0.17);
+    opacity: 1; /* Firefox */
+}
+  
+.searchbarinput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(0, 0, 0, 0.17);
+}
+  
+.searchbarinput::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(0, 0, 0, 0.17);
+}
+
+.searchicon{
+    width: 30px;
+    height: 30px;
+}
+.newbookingbutton{
+    background: linear-gradient(178.41deg, #FB8085 1.35%, #FF5757 139.03%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    padding-inline: 20px;
+    padding-block: 7px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+.plusimage{
+    width: 22px;
+    height: 22px;
+}

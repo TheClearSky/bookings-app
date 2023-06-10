@@ -1,0 +1,42 @@
+.branchselector{
+    background-color: white;
+    margin-inline: 36px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: black;
+    padding: 10px;
+}
+.branchselectortitle{
+    display: flex;
+}
+.locationimage{
+    width: 16px;
+    height: 16px;
+}
+.locationtitle{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(30, 41, 61, 0.69);
+    margin-left:6px;
+}
+.branchselectordropdown{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: #ff5757 transparent transparent transparent;
+    align-self: center;
+    margin-left: auto;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+}
+.branchselectordropdown.closed{
+    transform: scaleY(-1);
+}
+.branches  > div{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+}
+.branches > div:last-child{
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
