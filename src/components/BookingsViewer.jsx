@@ -50,7 +50,6 @@ export default function BookingsViewer() {
     {
         rows=currentTabData.slice((currentPageNumber-1)*pageSize,currentPageNumber*pageSize).map(({userName,bookingEpochTime,packageTitle,offlineBooking,bookingID,workshopImage})=>
         <BookingRow key={bookingID} name={userName} timestamp={bookingEpochTime} packageDetails={packageTitle} isOfffline={offlineBooking} imagelink={workshopImage}/>)
-        console.log(currentTabData.length);
     }
     return (
         <div className="bookingsviewer">
