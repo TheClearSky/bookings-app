@@ -1,0 +1,18 @@
+.pages{
+    display: flex;
+    margin-inline: auto;
+    width: fit-content;
+    gap: 10px;
+    margin-top: 30px;
+}
+.page{
+    background-color: #FF5757;
+    color: white;
+    padding-inline: 10px;
+    padding-block: 2px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.currentpage{
+    background-color: #8f3e3e;
+}
